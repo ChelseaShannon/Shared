@@ -1,0 +1,34 @@
+
+## Extract folder - untested
+$ tar -xvzf houdini-17.5.229-linux_x86_64_gcc6.3.tar.gz
+
+
+
+## Houdini
+$cd houdini-17.5.229-linux_x86_64_gcc6.3/  # Extracted folder path
+$sudo ./houdini.install
+
+
+## visual studio
+
+
+## git
+sudo apt-get install git
+
+
+## Cmake
+$sudo apt-get -y install cmake
+
+
+## Rez
+$cd ~/Dev
+$git clone https://github.com/nerdvegas/rez.git
+$cd rez
+$python ./install.py -v /home/chelsea/rez
+
+# To activate Rez, add the following path to $PATH
+/home/chelsea/rez/bin/rez
+
+## Add following to custombash
+export PATH=${PATH}:/home/chelsea/rez/bin/rez
+source /home/chelsea/rez/completion/complete.sh

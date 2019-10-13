@@ -1,0 +1,6 @@
+
+## If don't have pip
+$sudo apt install python-pip
+
+## Run install Rez
+$pip install rez
