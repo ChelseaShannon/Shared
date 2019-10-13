@@ -9,7 +9,16 @@ source ~/.bashrc_custom.sh
 
 ####### Add personal aliases and functions below #############
 
-# prints the input
+## Updating bash
+alias editbash='nano ~/.bashrc_custom.sh'
+alias catbash='cat ~/.bashrc_custom.sh'
+alias srcbash='source ~/.bashrc_custom.sh'
+
+alias cddev='cd ~/Dev'
+
+### prints the input
+alias lq='ls -lahrt --color=auto'
+
 function print_my_input() {
   echo 'Your input: ' $1
 }
