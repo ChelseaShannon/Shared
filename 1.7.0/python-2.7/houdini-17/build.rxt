@@ -1,0 +1,2045 @@
+{
+    "default_patch_lock": "no_lock",
+    "rez_version": "2.8.0.16",
+    "package_requests": [
+        "~houdini",
+        "AL_pylib_houdini-1.17+",
+        "python-2.7",
+        "houdini-17",
+        "cmake-2.8",
+        "AL_CMakeLibALPythonLibs-3",
+        "houdini"
+    ],
+    "serialize_version": "4.3",
+    "resolved_packages": [
+        {
+            "variables": {
+                "index": null,
+                "version": "6.6",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "CentOS"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.7.14.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "python"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "5.1.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "gmp"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "3.1.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "mpfr"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.0.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "mpc"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "4.8.3.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "stdlib"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.2.8",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "zlib"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.2.53",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libpng"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.6",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "bzip2"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.5.5",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "freetype"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.1.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "expat"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.11.93",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "fontconfig"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "6.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libjpeg"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "3.2.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libffi"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.45.1.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "glib"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.10.36",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "gstreamer"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.10.36",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "gst_plugins_base"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "3.9.4",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libtiff"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.10.31",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "gst_plugins_good"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.8.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libxml2"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "5.6.1.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "Qt_vfx"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "17.0.191",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "houdiniDevKit"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "17.0.191",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "houdini"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "Sydney.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "zone"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cpuModel_23"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.10.0.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "six"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 2,
+                "version": "1.4",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "setuptools"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 2,
+                "version": "1.2.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "argparse"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.3.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "lsq"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.0.1.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "pyparsing"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "8.37",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "PCRE"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 2,
+                "version": "3.0.5",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "swig"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.2.2.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "odict"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.7.0.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "Pillow"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.1.7",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libyaml"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.12.16",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cairo"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.26.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "graphviz"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.2.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "pydot"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.1.2.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "psutil"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.1.28.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libxslt"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.55.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "boost"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cpp_btree"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.5.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "tinyxml"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.0.1.7",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "openssl"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "7.33.0.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libcurl"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "11.1.42",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "shareBase"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.3.4.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "logstash"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "14.5.14.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "certifi"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "3.0.4.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "chardet"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.6.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "idna"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.22.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "urllib3"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.4.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "elasticsearch_py"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2016.6.1.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "pytz"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 2,
+                "version": "2.1.5",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "futures"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.2.4",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_analytics"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.10.4.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "numpy"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 2,
+                "version": "2.1.1.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "simplejson"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "3.12",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "PyYAML"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 2,
+                "version": "3.2.4.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "lxml"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.5.1.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "unittest2"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "4.4.2.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "coverage"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.7.2.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "nose2"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.0.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_hessian"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.26.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_utils"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.3.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "pexpect"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.2.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_qtutils"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.1.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_plugin"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.4.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "protobuf"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.4.1.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "pyprotobuf"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 2,
+                "version": "3.1.7",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libDEX"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.4",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "animal"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "107",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ticpp"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.16.0.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_rapidjson"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.44.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "arklib"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1708.12.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ALPythonLibs"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.5.9",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_filesystem"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.5.7",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_command"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.1.8",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "assetResolverCore"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.0.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "assetResolverURI"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.3.4",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "assetResolverARK"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.1.10",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "assetResolverExtension"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.18.4",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "requests"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "2.2.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "marshmallow"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "3.6.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "typing"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.0.2.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "class_registry"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.1.6.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "enum34"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "3.3.10",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "pyAssetResolver"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.33.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_vortex_model"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.16.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_vortex_executor"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.0.5",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libraw1394"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.2.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libdc1394"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ALPropertyLayout"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "4.17.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "sip"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.55.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_boost"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 3,
+                "version": "4.11.4.5",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "PyQt"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.1.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ALPropertyLayoutPython"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.0.8",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ALSimpleTypes"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.11.4",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ALXObjectModel"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.3.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libvpx"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.0.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "glew"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.6.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "evdev"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.3.4",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "demandimport"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.0.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_executioncontext"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "3.13.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_entitytree"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "Qtpy"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.1.2.27",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "qutepart"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.0.9.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ALOpenColorIO"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "8.0.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ALQt"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.0.1.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "mock"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.85.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_icons"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "4.97.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_pyqt"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "3.27.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_arena"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.8.10",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ALXObjectModelUI"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.1.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_nucleus_core"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.1.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_nucleus_plugins"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.36.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_nucleus"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "x264"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.3.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "x265"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.1.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "opencore_amr"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.8.10.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "hdf5"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.5.6",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_hdf5"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "205.4.10",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "Bobject"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.1.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_CMakeLib"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_CMakeLibHoudini"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 5,
+                "version": "19.3.6",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "houdini_bobject"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.5.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "openjpeg"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.4.9",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "opencv"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.18.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_arenaui"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.3.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "xvidcore"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.5.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libbluray"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.4.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "frei0r"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2018.2.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "tbb"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.99.19",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libcaca"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.3.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libogg"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.3.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libvorbis"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.92.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libcdio"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.90.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libcdio_paranoia"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.4.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libwebp"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.8.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "freeglut"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "speex"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.2.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "yasm"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.4.9",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_shotrange"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.5.7.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "Whoosh"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 2,
+                "version": "4.0.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_playback"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.7.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_assetid"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.19.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_checkin"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.2.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_biblio"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "3.75.4",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_arenaproduction"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.34.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_arenatracking"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "2.3.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "rtmpdump"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.2.35",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "zvbi"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "opus"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.1.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libvdpau"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "5.9.0.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ncurses"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.1.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libtheora"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.1.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "libalsa"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.3.13",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "twolame"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "3.99.5",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "lame"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.98.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "vid_stab"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "0.1.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "fdk_aac"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "3.3.3.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ffmpeg"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "3.9.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_biblioui"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.10.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_medialib"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.4.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "glimpse_ptex"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.2.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ilmbase"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.2.0.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "OpenEXR"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.5.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_yamlcpp"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 2,
+                "version": "1.64.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "glimpse_oiio"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "0.1.5",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "ImageProcessing"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.21.7",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_hydra"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.3.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_medialibhoudini"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.24.4",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_vortex_hydra"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.0.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_asseturi"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.0.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_texture"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.3.1.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "jsonpickle"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.15.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_maya"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.4.6",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_scenemap"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "6.0.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_shotsetup"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "83.9.9",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "Meteor"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 2,
+                "version": "6.0.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_dexutils"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.11.5",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "DexAgents_script"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.17.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_vortex_dex"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1045.0.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "houdini_otls_pipeline"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.4.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "FxCacheLibrary"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.54.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pylib_houdini"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "2.8.12.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cmake"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "3.0.1.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "epydoc"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "2.8.0.12",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "rez"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "4.2.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_pyToolDependency"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "0.60.0.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "logilab_common"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 0,
+                "version": "1.0.1.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "astroid"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": 1,
+                "version": "1.0.0",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "pylint"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.4.1",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "xunitmerge"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "6.3.3",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_CMakeLibPython"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "3.6.6",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "AL_CMakeLibALPythonLibs"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cpuModel_79"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cpuModel_63"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cpuModel_45"
+            },
+            "key": "filesystem.variant"
+        },
+        {
+            "variables": {
+                "index": null,
+                "version": "1.0.2",
+                "repository_type": "filesystem",
+                "location": "/film/tools/packages",
+                "name": "cpuModel_44"
+            },
+            "key": "filesystem.variant"
+        }
+    ],
+    "suite_context_name": null,
+    "num_loaded_packages": 2205,
+    "requested_timestamp": null,
+    "host": "christophsis.al.com.au",
+    "user": "jonco",
+    "package_filter": [],
+    "arch": "x86_64",
+    "solve_time": 2.1415419578552246,
+    "building": true,
+    "implicit_packages": [
+        "CentOS-6.6",
+        "~platform==linux",
+        "~arch==x86_64",
+        "~os==CentOS-6.6",
+        "zone-Sydney",
+        "cpuModel_79",
+        "cpuModel_63",
+        "cpuModel_45",
+        "cpuModel_44",
+        "cpuModel_23"
+    ],
+    "parent_suite_path": null,
+    "highlight_nonlatest": false,
+    "created": 1524713680,
+    "graph": "{'nodes': [((('fillcolor', '#AAFFAA'), ('fontsize', 10), ('style', 'filled')), [('_99', 'typing-3.6.1[0]'), ('_98', 'marshmallow-2.2.1[1]'), ('_97', 'requests-2.18.4[0]'), ('_96', 'assetResolverExtension-2.1.10[0]'), ('_95', 'assetResolverARK-2.3.4[0]'), ('_94', 'assetResolverURI-1.0.3[0]'), ('_93', 'assetResolverCore-2.1.8[0]'), ('_92', 'AL_pylib_command-1.5.7[0]'), ('_91', 'AL_pylib_filesystem-1.5.9[1]'), ('_90', 'ALPythonLibs-1708.12.0[1]'), ('_62', 'logstash-2.3.4.1[0]'), ('_63', 'certifi-14.5.14.1[0]'), ('_60', 'libcurl-7.33.0.2[0]'), ('_61', 'shareBase-11.1.42[1]'), ('_66', 'urllib3-1.22.3[0]'), ('_67', 'elasticsearch_py-2.4.0[0]'), ('_64', 'chardet-3.0.4.1[0]'), ('_65', 'idna-2.6.1[0]'), ('_68', 'pytz-2016.6.1.2[0]'), ('_69', 'futures-2.1.5[2]'), ('_193', 'AL_pylib_shotsetup-6.0.0[0]'), ('_192', 'AL_pylib_scenemap-1.4.6[0]'), ('_191', 'AL_maya-1.15.1[0]'), ('_190', 'jsonpickle-0.3.1.1[0]'), ('_197', 'AL_vortex_dex-0.17.2[0]'), ('_196', 'DexAgents_script-1.11.5[0]'), ('_195', 'AL_pylib_dexutils-6.0.2[2]'), ('_194', 'Meteor-83.9.9[0]'), ('_199', 'FxCacheLibrary-1.4.0[1]'), ('_198', 'houdini_otls_pipeline-1045.0.0[]'), ('_126', 'AL_pylib_pyqt-4.97.0[0]'), ('_127', 'AL_pylib_arena-3.27.1[0]'), ('_124', 'mock-1.0.1.1[1]'), ('_125', 'AL_pylib_icons-2.85.1[0]'), ('_122', 'ALOpenColorIO-1.0.9.3[0]'), ('_123', 'ALQt-8.0.1[1]'), ('_120', 'Qtpy-1.1.0[]'), ('_121', 'qutepart-2.1.2.27[0]'), ('_128', 'ALXObjectModelUI-1.8.10[1]'), ('_129', 'AL_pylib_nucleus_core-1.1.1[0]'), ('_59', 'openssl-1.0.1.7[0]'), ('_58', 'tinyxml-2.5.2[0]'), ('_53', 'pydot-1.2.2.1[]'), ('_52', 'graphviz-2.26.3[0]'), ('_51', 'cairo-1.12.16[]'), ('_50', 'libyaml-0.1.7[0]'), ('_57', 'cpp_btree-1.1.2[]'), ('_56', 'boost-1.55.0[0]'), ('_55', 'libxslt-1.1.28.1[0]'), ('_54', 'psutil-1.1.2.1[0]'), ('_28', 'libjpeg-6.2[0]'), ('_29', 'libffi-3.2.1[0]'), ('_26', 'expat-2.1.0[0]'), ('_27', 'fontconfig-2.11.93[0]'), ('_24', 'bzip2-1.0.6[]'), ('_25', 'freetype-2.5.5[0]'), ('_22', 'zlib-1.2.8[0]'), ('_23', 'libpng-1.2.53[0]'), ('_20', 'mpc-1.0.1[0]'), ('_21', 'stdlib-4.8.3.1[0]'), ('_179', 'glimpse_ptex-2.4.0[0]'), ('_178', 'AL_pylib_medialib-2.10.0[0]'), ('_175', 'fdk_aac-0.1.3[]'), ('_174', 'vid_stab-0.98.2[]'), ('_177', 'AL_pylib_biblioui-3.9.0[0]'), ('_176', 'ffmpeg-3.3.3.1[0]'), ('_171', 'libalsa-1.1.2[0]'), ('_170', 'libtheora-1.1.1[]'), ('_173', 'lame-3.99.5[]'), ('_172', 'twolame-0.3.13[]'), ('_88', 'AL_rapidjson-0.16.0.1[]'), ('_89', 'arklib-1.44.0[1]'), ('_84', 'pyprotobuf-2.4.1.2[0]'), ('_85', 'libDEX-3.1.7[2]'), ('_86', 'animal-1.0.4[]'), ('_87', 'ticpp-107[0]'), ('_80', 'pexpect-2.3.1[0]'), ('_81', 'AL_qtutils-1.2.1[0]'), ('_82', 'AL_plugin-1.1.0[1]'), ('_83', 'protobuf-2.4.1[0]'), ('_17', 'python-2.7.14.2[0]'), ('_16', 'CentOS-6.6[]'), ('_19', 'mpfr-3.1.2[0]'), ('_18', 'gmp-5.1.3[0]'), ('_210', 'AL_CMakeLibALPythonLibs-3.6.6[]'), ('_211', 'cpuModel_79-1.0.2[]'), ('_212', 'cpuModel_63-1.0.2[]'), ('_213', 'cpuModel_45-1.0.2[]'), ('_214', 'cpuModel_44-1.0.2[]'), ('_131', 'AL_pylib_nucleus-1.36.1[]'), ('_130', 'AL_pylib_nucleus_plugins-1.1.0[0]'), ('_133', 'x265-2.3.0[0]'), ('_132', 'x264-1.0.0[]'), ('_135', 'hdf5-1.8.10.1[0]'), ('_134', 'opencore_amr-0.1.3[]'), ('_137', 'Bobject-205.4.10[1]'), ('_136', 'AL_hdf5-1.5.6[1]'), ('_139', 'AL_CMakeLibHoudini-1.0.0[]'), ('_138', 'AL_CMakeLib-2.1.1[]'), ('_48', 'odict-0.2.2.1[0]'), ('_49', 'Pillow-2.7.0.3[0]'), ('_40', 'cpuModel_23-1.0.2[]'), ('_41', 'six-1.10.0.1[1]'), ('_42', 'setuptools-1.4[2]'), ('_43', 'argparse-1.2.1[2]'), ('_44', 'lsq-2.3.0[]'), ('_45', 'pyparsing-2.0.1.1[0]'), ('_46', 'PCRE-8.37[0]'), ('_47', 'swig-3.0.5[2]'), ('_144', 'xvidcore-1.3.2[]'), ('_145', 'libbluray-0.5.0[]'), ('_146', 'frei0r-1.4.1[]'), ('_147', 'tbb-2018.2.0[0]'), ('_140', 'houdini_bobject-19.3.6[5]'), ('_141', 'openjpeg-1.5.1[]'), ('_142', 'opencv-2.4.9[]'), ('_143', 'AL_pylib_arenaui-2.18.2[0]'), ('_148', 'libcaca-0.99.19[]'), ('_149', 'libogg-1.3.1[]'), ('_108', 'sip-4.17.0[0]'), ('_109', 'AL_boost-1.55.0[0]'), ('_100', 'class_registry-2.0.2.2[0]'), ('_101', 'enum34-1.1.6.1[0]'), ('_102', 'pyAssetResolver-3.3.10[]'), ('_103', 'AL_vortex_model-0.33.2[0]'), ('_104', 'AL_vortex_executor-0.16.1[0]'), ('_105', 'libraw1394-2.0.5[]'), ('_106', 'libdc1394-2.2.2[]'), ('_107', 'ALPropertyLayout-1.2.0[]'), ('_203', 'rez-2.8.0.12[1]'), ('_202', 'epydoc-3.0.1.1[0]'), ('_201', 'cmake-2.8.12.2[0]'), ('_200', 'AL_pylib_houdini-1.54.0[1]'), ('_207', 'pylint-1.0.0[1]'), ('_206', 'astroid-1.0.1.1[0]'), ('_205', 'logilab_common-0.60.0.1[0]'), ('_204', 'AL_pyToolDependency-4.2.3[0]'), ('_209', 'AL_CMakeLibPython-6.3.3[]'), ('_208', 'xunitmerge-1.0.4.1[]'), ('_79', 'AL_utils-1.26.3[0]'), ('_78', 'AL_hessian-1.0.2[1]'), ('_75', 'unittest2-0.5.1.2[0]'), ('_74', 'lxml-3.2.4.3[2]'), ('_77', 'nose2-0.7.2.0[0]'), ('_76', 'coverage-4.4.2.3[0]'), ('_71', 'numpy-1.10.4.2[0]'), ('_70', 'AL_pylib_analytics-1.2.4[0]'), ('_73', 'PyYAML-3.12[0]'), ('_72', 'simplejson-2.1.1.2[2]'), ('_157', 'AL_pylib_shotrange-1.4.9[0]'), ('_156', 'yasm-1.2.0[]'), ('_155', 'speex-1.2.1[]'), ('_154', 'freeglut-2.8.1[0]'), ('_153', 'libwebp-0.4.3[0]'), ('_152', 'libcdio_paranoia-0.90.1[]'), ('_151', 'libcdio-0.92.0[]'), ('_150', 'libvorbis-1.3.3[]'), ('_159', 'AL_pylib_playback-4.0.2[2]'), ('_158', 'Whoosh-2.5.7.2[0]'), ('_180', 'ilmbase-2.2.0[0]'), ('_181', 'OpenEXR-2.2.0.1[0]'), ('_182', 'AL_yamlcpp-0.5.3[0]'), ('_183', 'glimpse_oiio-1.64.1[2]'), ('_184', 'ImageProcessing-0.1.5[1]'), ('_185', 'AL_hydra-1.21.7[0]'), ('_186', 'AL_pylib_medialibhoudini-1.3.0[1]'), ('_187', 'AL_vortex_hydra-0.24.4[0]'), ('_188', 'AL_pylib_asseturi-2.0.1[0]'), ('_189', 'AL_pylib_texture-2.0.0[0]'), ('_119', 'AL_pylib_entitytree-3.13.0[0]'), ('_118', 'AL_pylib_executioncontext-1.0.0[0]'), ('_113', 'ALXObjectModel-1.11.4[1]'), ('_112', 'ALSimpleTypes-1.0.8[1]'), ('_111', 'ALPropertyLayoutPython-1.1.3[1]'), ('_110', 'PyQt-4.11.4.5[3]'), ('_117', 'demandimport-0.3.4[0]'), ('_116', 'evdev-0.6.1[0]'), ('_115', 'glew-2.0.0[0]'), ('_114', 'libvpx-1.3.0[]'), ('_39', 'zone-Sydney.3[]'), ('_38', 'houdini-17.0.191[0]'), ('_31', 'gstreamer-0.10.36[0]'), ('_30', 'glib-2.45.1.2[0]'), ('_33', 'libtiff-3.9.4[0]'), ('_32', 'gst_plugins_base-0.10.36[0]'), ('_35', 'libxml2-2.8.0[0]'), ('_34', 'gst_plugins_good-0.10.31[0]'), ('_37', 'houdiniDevKit-17.0.191[0]'), ('_36', 'Qt_vfx-5.6.1.2[0]'), ('_162', 'AL_pylib_biblio-2.2.0[0]'), ('_163', 'AL_pylib_arenaproduction-3.75.4[0]'), ('_160', 'AL_pylib_assetid-1.7.3[0]'), ('_161', 'AL_pylib_checkin-1.19.3[0]'), ('_166', 'zvbi-0.2.35[]'), ('_167', 'opus-1.1.0[]'), ('_164', 'AL_pylib_arenatracking-1.34.1[0]'), ('_165', 'rtmpdump-2.3.0[]'), ('_168', 'libvdpau-1.1.1.1[]'), ('_169', 'ncurses-5.9.0.1[0]')]), ((('fillcolor', '#F6F6F6'), ('fontsize', 10), ('style', 'filled,dashed')), [('_265', 'graphviz-2.26.0+<2.27'), ('_264', 'pyparsing-2.0'), ('_267', 'zlib-1.2+<1.3'), ('_266', '~bzip2-1.0'), ('_261', 'cairo'), ('_260', 'setuptools-1'), ('_263', 'freetype'), ('_262', 'libpng'), ('_346', 'requests-2'), ('_347', 'ALPythonLibs-1708+'), ('_344', 'stdlib-4.8.3+'), ('_345', 'AL_utils-1.12+<2'), ('_269', 'stdlib-4.8.3+<5'), ('_268', 'openssl-1.0.1+<1.1'), ('_340', 'assetResolverARK-2.3.3+<2.4'), ('_341', 'assetResolverCore-2.1.7+<2.2'), ('_553', 'AL_pylib_medialib-2.10+<3'), ('_552', 'AL_pylib_nucleus-1.7+<2'), ('_551', 'AL_vortex_hydra'), ('_550', 'AL_vortex_dex'), ('_557', 'AL_utils-1.14+'), ('_556', 'houdini_bobject-19+'), ('_555', 'AL_pylib_command-1.2+<2'), ('_554', 'AL_pylib_medialibhoudini-1.3+<2'), ('_559', 'houdini_otls_pipeline-793+'), ('_558', 'AL_pylib_filesystem-1.5.4+<2'), ('_418', 'ALPythonLibs-1705.5+'), ('_419', 'AL_pylib_filesystem-1.2.0+<2'), ('_412', 'AL_pylib_arena-3.26+<4'), ('_413', 'ALQt-8+<9'), ('_410', 'libdc1394'), ('_411', 'zlib'), ('_416', 'libogg'), ('_417', 'stdlib'), ('_414', 'cairo-1.12'), ('_415', 'libogg-1.3'), ('_298', 'odict-0.2.2+'), ('_299', 'Pillow-2.7.0'), ('_290', 'six-1.10+<2'), ('_291', 'coverage-4'), ('_292', 'argparse-1.2.1+<1.3'), ('_293', 'unittest2-0.5.1+<0.6'), ('_294', 'simplejson-2.1.1+'), ('_295', 'PyYAML-3.9+'), ('_296', 'numpy-1.6.2+<2'), ('_297', 'lxml-3.2.4.3+<3.2.5'), ('_489', 'AL_pylib_checkin-1.17+<2'), ('_488', 'AL_pylib_command-1.3.5+<2'), ('_485', 'AL_pylib_biblio-2.2+<3'), ('_484', 'AL_utils-1.0.2+<2'), ('_487', 'ALPythonLibs-1695.0.0+'), ('_486', 'ffmpeg-3+'), ('_481', 'libxml2-2.8'), ('_480', 'freeglut-2.8.1+'), ('_483', 'AL_pylib_pyqt-4.94+<5'), ('_482', 'yasm-1.2.0'), ('_570', 'unittest2-0.5.1'), ('_229', 'bzip2-1.0.6+'), ('_228', 'zlib-1.2.7+'), ('_221', 'gmp-5.1.3'), ('_220', 'CentOS-6.2+<7'), ('_223', 'mpc-1.0.1'), ('_222', 'mpfr-3.1.2'), ('_225', 'zlib-1.2+'), ('_224', 'stdlib-4.8.2+<5'), ('_227', 'libpng-1.2'), ('_226', 'stdlib-4.4.6+<5'), ('_458', 'libcdio-0.92'), ('_459', 'libcdio_paranoia-0.90'), ('_456', 'libvpx-1'), ('_457', 'libcaca-0.99'), ('_454', 'libtheora-1.1'), ('_455', 'libbluray-0.5'), ('_452', 'frei0r-1.4.0.1+'), ('_453', 'libalsa-1'), ('_450', 'bzip2'), ('_451', 'freetype-2+'), ('_315', 'ticpp-107'), ('_314', 'pyprotobuf-2.4.1'), ('_317', 'animal-1.0.0+'), ('_316', 'shareBase-11.1'), ('_311', '~houdini_bobject-17+'), ('_310', '~maya-2014.0.2+'), ('_313', 'protobuf-2.4'), ('_312', 'AL_utils-1.5+<2'), ('_319', 'AL_rapidjson-0.16'), ('_318', 'swig-3.0'), ('_258', '~ruby-1.8'), ('_259', '~java-1.7.0.51+<1.7.1'), ('_254', 'python-2'), ('_255', 'argparse'), ('_256', 'PCRE-8.37'), ('_257', '~perl-5'), ('_250', '~libxml2-2.8.0'), ('_251', '~zlib-1.2.7+<2'), ('_252', '~PyQt-4.7.3+<5'), ('_253', 'setuptools'), ('_528', 'AL_pylib_filesystem-1.2+<2'), ('_529', 'AL_pylib_scenemap-1.0+<2'), ('_348', 'AL_pylib_filesystem-1.5+<2'), ('_522', 'AL_pylib_filesystem-1.2.0+'), ('_523', 'AL_pylib_shotrange-1+<2'), ('_520', 'ALPythonLibs-1704.1+'), ('_349', 'AL_pylib_command-1.3.6+<2'), ('_526', 'AL_maya-1.13.3+<2'), ('_527', 'AL_hydra-1.20.3+<2'), ('_524', '~AL_pylib_edit-4+<6'), ('_525', 'AL_pylib_assetid-1.0.1+<2'), ('_342', 'assetResolverExtension-2.1.10+<2.2'), ('_343', 'assetResolverURI-1.0'), ('_521', 'AL_pylib_texture-2+<3'), ('_215', '~zlib-1.2.8+<2'), ('_216', '~ncurses-5.9'), ('_217', '~readline-6.3'), ('_218', '~openssl-1.0'), ('_219', 'CentOS-6.2+<8'), ('_353', 'class_registry-2.0.2.1+<3'), ('_352', 'pyAssetResolver-3.0+<4'), ('_355', 'AL_vortex_model-0.31+<1'), ('_354', 'enum34-1.1+<2'), ('_357', 'sip-4.17.0'), ('_356', 'libraw1394-2+'), ('_405', 'Bobject-205.4+<205.5'), ('_404', 'AL_CMakeLib-2.0+<3'), ('_407', 'houdini-17.0.191+<17.5'), ('_406', 'AL_hdf5-1.5'), ('_401', 'AL_hdf5-1.5.3+<1.6'), ('_400', 'tinyxml-2.5'), ('_403', 'assetResolverExtension-2.1'), ('_402', 'assetResolverCore-2.1.4+<2.2'), ('_566', 'rez-2+<2.8.0.13'), ('_567', 'AL_utils-1.4+'), ('_564', 'AL_pylib_medialibhoudini-1.3+'), ('_565', 'argparse-1.2+'), ('_409', 'openjpeg-1.5+'), ('_408', 'AL_CMakeLibHoudini-1.0+<2'), ('_560', 'AL_pylib_shotsetup-6.0+<7'), ('_561', 'PyQt-4+<5'), ('_328', 'ALPythonLibs-1707.0+'), ('_329', 'AL_utils-1+<2'), ('_324', 'pexpect-2.3+<2.4'), ('_325', 'AL_qtutils-1.0+<2'), ('_326', 'AL_plugin-1.0+<2'), ('_327', 'AL_hessian-1+<2'), ('_320', 'animal-1.0.1+<2'), ('_321', 'odict-0.2.2'), ('_322', 'arklib-1.37+<2'), ('_323', 'libDEX-3.1.7+<4'), ('_289', 'setuptools-1.4+'), ('_288', 'libxslt-1.1.28.1'), ('_283', 'argparse-1.2'), ('_282', 'futures-2.1'), ('_281', 'elasticsearch_py-2'), ('_280', 'setuptools-1.4'), ('_287', 'libyaml-0.1'), ('_286', 'logstash-2'), ('_285', 'zone'), ('_284', 'pytz-2016'), ('_358', 'Qt_vfx-5.6.1'), ('_580', 'nose2-0.4+<1'), ('_581', 'epydoc-3.0.1+<4'), ('_449', 'libvorbis-1.3'), ('_448', 'openssl-1'), ('_441', 'AL_pylib_playback-4.0.1+<5'), ('_440', 'AL_pylib_nucleus_core-1.0+<2'), ('_443', 'AL_pylib_assetid-1.4.0+<2'), ('_442', 'AL_pylib_arenaui-2.17+<3'), ('_445', 'AL_pylib_arenaproduction-3.74+<4'), ('_444', 'AL_pylib_checkin-1.17.10+<2'), ('_447', 'AL_pylib_nucleus-1.33+<2'), ('_446', 'AL_pylib_pyqt-4.95.6+<5'), ('_360', 'python-2.7+<3'), ('_361', 'sip-4.17+'), ('_362', 'ALPropertyLayout-1.2'), ('_363', 'PyQt-4.11.4'), ('_364', 'ALSimpleTypes-1.0'), ('_365', 'ALPropertyLayoutPython-1.1'), ('_366', 'ALPythonLibs-1700.0.4+'), ('_367', 'AL_pylib_executioncontext-1'), ('_368', 'AL_pylib_filesystem-1'), ('_369', 'AL_utils-1.14.0+<2'), ('_535', 'AL_hydra-1+<2'), ('_534', 'AL_utils-1.1+<2'), ('_537', 'AL_pylib_dexutils-6.0.2+'), ('_536', 'libDEX-3.1.3+'), ('_531', 'libDEX-3.1+<4'), ('_530', 'jsonpickle'), ('_249', 'houdiniDevKit-17.0.191'), ('_248', 'Qt_vfx-5.6.1.2'), ('_247', '~tbb-2018.2'), ('_246', 'libxml2-2.8.0'), ('_245', 'gst_plugins_good-0.10.31'), ('_244', 'fontconfig-2.11.93+<2.12'), ('_243', 'freetype-2.5'), ('_242', 'zlib-1.2'), ('_241', 'libtiff-3.9'), ('_240', '!Qt'), ('_562', 'AL_pylib_biblio-2+<3'), ('_438', 'AL_pylib_shotrange-1+'), ('_439', 'AL_pylib_nucleus-1.35+<2'), ('_434', 'ALPythonLibs-1708.3+'), ('_435', 'lxml-3.2.4+'), ('_436', 'AL_pylib_biblio-2.0+<3'), ('_437', 'AL_pylib_entitytree-3.13.0+<4'), ('_430', 'AL_pylib_filesystem-1.4+'), ('_431', 'odict-0.2.2+<1'), ('_432', 'arklib-1.39+<2'), ('_433', 'AL_utils-1.14+<2'), ('_563', 'FxCacheLibrary-1+<2'), ('_543', '~AL_vortex_dex-0.1+<1'), ('_548', '~DexAgents_xsi-1'), ('_549', 'Meteor-83'), ('_470', 'opencore_amr'), ('_471', 'rtmpdump-2'), ('_472', 'speex-1.2'), ('_473', 'vid_stab-0.98+'), ('_474', 'x264'), ('_475', 'x265-2.3+'), ('_476', 'xvidcore-1.3'), ('_477', 'zvbi'), ('_478', 'ncurses-5.9+'), ('_479', 'glib-2.45.1.1+'), ('_573', '~pylint-1'), ('_572', 'astroid-1.0.1'), ('_575', '~epydoc-3.0.1+<4'), ('_574', '~nose2-0.4.7.8+<1'), ('_577', 'AL_CMakeLibPython-6.2.2+<7'), ('_576', 'xunitmerge-1.0.4+<3'), ('_579', 'pylint-1'), ('_578', 'AL_pyToolDependency-4+<5'), ('_571', 'logilab_common-0.60.0'), ('_339', 'typing-3'), ('_338', 'certifi-14'), ('_337', 'urllib3-1.22+<2'), ('_336', 'assetResolverARK-2.2.7+<3'), ('_335', 'assetResolverURI-1.0+<2'), ('_334', 'assetResolverCore-2.1.8+<2.2'), ('_333', 'assetResolverCore-2.0.1+<3'), ('_332', 'AL_pylib_analytics-1.1.4+<2'), ('_331', 'AL_pylib_filesystem-1.5.0+'), ('_330', 'ALPythonLibs-1708.3.0+'), ('_508', 'AL_pylib_filesystem-1.4+<2'), ('_509', 'ImageProcessing-0.1+'), ('_504', 'tbb'), ('_505', '~AL_pylib_renderstats-1.10.1+'), ('_506', 'animal'), ('_507', 'marshmallow-2'), ('_500', 'libtiff-3.9.4+<4'), ('_501', 'AL_yamlcpp-0.5.3+'), ('_502', 'glimpse_oiio'), ('_503', 'sip-4.17'), ('_382', 'AL_pylib_icons-2.80+<3'), ('_383', 'ALQt-8.0+<9'), ('_380', 'evdev-0.6.1+'), ('_381', 'ALPropertyLayoutPython-1.1+<2'), ('_386', 'enum34-1.1.6+<2'), ('_387', 'mock-1'), ('_384', 'demandimport-0'), ('_385', 'qutepart-2.1.2.24+<3'), ('_388', 'AL_pylib_pyqt-4.86+<5'), ('_389', 'ALXObjectModel-1.11'), ('_532', 'pyAssetResolver-3+<4'), ('_373', 'AL_pylib_entitytree-2.8.2+'), ('_372', 'demandimport'), ('_371', 'Qtpy-1+<2'), ('_370', 'PyQt-4.11.2.2+'), ('_377', 'graphviz-2.26'), ('_376', '~OpenGL'), ('_375', 'ALOpenColorIO-1.0'), ('_374', 'glew-2.0'), ('_379', 'futures-2.1.5+'), ('_378', 'ALPythonLibs-1706.0+'), ('_540', 'AL_pylib_kindred-0.3.4.5+'), ('_541', '~glimpse-2.21.1+'), ('_278', 'six-1'), ('_279', 'urllib3-1'), ('_544', 'libDEX-3'), ('_545', 'DexAgents_script-1.2+<2'), ('_546', '~DexAgents_maya-1'), ('_547', '~DexAgents_nuke-1'), ('_272', 'libcurl-7'), ('_273', 'boost-1.55.0'), ('_270', 'tinyxml-2.5.2+<2.6'), ('_271', 'cpp_btree-1.1'), ('_276', 'idna-2'), ('_277', 'certifi'), ('_274', 'setuptools-1.4+<29'), ('_275', 'chardet-3'), ('_429', 'pyparsing-2.0.1+<3'), ('_428', 'AL_pylib_assetid-1'), ('_427', 'Whoosh-2'), ('_426', 'AL_utils-1.8.5+<2'), ('_425', 'lsq-2.0.0+<3'), ('_424', 'simplejson-2.1.1'), ('_423', 'AL_pylib_filesystem-1.2.2+<2'), ('_422', 'ALPythonLibs-1707.0.0+'), ('_421', 'ALPythonLibs-1704.0.4+'), ('_420', 'AL_utils-1.17.3+<2'), ('_492', 'ilmbase-2.2.0'), ('_493', 'libpng-1.2+<1.4'), ('_490', 'AL_pylib_biblioui-3.8+<4'), ('_491', 'AL_pylib_arenatracking-1.25+<2'), ('_496', 'freetype-2.5+<3'), ('_497', 'glimpse_ptex-2.4'), ('_494', 'OpenEXR-2.2'), ('_495', 'ilmbase-2.2'), ('_498', 'mpc'), ('_499', 'CentOS-6.6+<7'), ('_359', 'AL_boost-1.55.0'), ('_533', 'ALPythonLibs-1708'), ('_238', 'zlib-1.2.3+'), ('_239', '!MayaQt'), ('_236', 'zlib-1.2.3+<1.3'), ('_237', 'gst_plugins_base-0.10.36'), ('_234', 'gstreamer-0.10.36'), ('_235', 'libjpeg-6.2'), ('_232', 'libffi-3.2.1+'), ('_233', 'glib-2.45.1.1+<2.46'), ('_230', 'expat-2.1.0+'), ('_231', 'freetype-2.5.5+'), ('_463', 'lame-3.99'), ('_462', 'libwebp'), ('_461', 'libvdpau-1.1+'), ('_460', 'libdc1394-2+'), ('_467', 'opus-1.1'), ('_466', 'opencv-2.4+<3'), ('_465', 'openssl'), ('_464', 'twolame-0.3'), ('_469', 'openjpeg-1+<2'), ('_468', 'fdk_aac-0.1'), ('_539', '~AL_pylib_imagemerge-0+<1'), ('_538', 'AL_pylib_filesystem-1.4.10+'), ('_351', 'pydot'), ('_350', 'marshmallow'), ('_308', 'AL_utils-1.0+<2'), ('_309', '~AL_pylib_pyqt-4.86+<5'), ('_302', '~libDEX-3.1.7+<4'), ('_303', 'AL_pylib_analytics-1.1+<2'), ('_300', 'lsq-2.2+<3'), ('_301', '~arklib-1.43+<2'), ('_306', 'psutil-1.1.2+<2'), ('_307', 'AL_hessian-1.0.2+<2'), ('_304', '~vcrpy-1'), ('_305', 'nose2-0.4.7.6+'), ('_519', '~pyGlimpse-3'), ('_518', 'AL_pylib_asseturi-1.2.0+'), ('_517', 'ALPythonLibs-1704.1.0+'), ('_516', 'AL_pylib_assetid-1.5.0+<2'), ('_515', 'AL_vortex_executor-0.11+<1'), ('_514', 'AL_vortex_model-0.32+<1'), ('_513', 'AL_hydra-1.14.0+<2'), ('_512', 'ALPythonLibs'), ('_511', 'AL_pylib_command-1.5+<2'), ('_510', 'AL_pylib_medialib-2.9+<3'), ('_568', 'requests-2.18+<3'), ('_569', 'lxml-3.2+<4'), ('_542', '~denoise-1.3.8+<2'), ('_399', 'hdf5-1.8'), ('_398', 'AL_pylib_nucleus_plugins-1+<2'), ('_395', 'AL_pylib_nucleus_core-1+<2'), ('_394', 'AL_pylib_pyqt-4.95+<5'), ('_397', 'AL_pylib_arena-3.24.1+<4'), ('_396', 'ALXObjectModelUI-1.8+<2'), ('_391', 'mock-1+<2'), ('_390', 'ALQt-8.0'), ('_393', 'AL_pylib_command-1.5.6+<2'), ('_392', 'AL_plugin-1+<2')]), ((('fillcolor', '#FFFFAA'), ('fontsize', 10), ('style', 'filled,dashed')), [('_9', '~os==CentOS-6.6'), ('_8', '~arch==x86_64'), ('_7', '~platform==linux'), ('_6', 'CentOS-6.6'), ('_5', 'AL_CMakeLibALPythonLibs-3'), ('_4', 'cmake-2.8'), ('_3', 'python-2.7'), ('_2', 'AL_pylib_houdini-1.17+'), ('_1', 'houdini-17'), ('_15', 'cpuModel_23'), ('_14', 'cpuModel_44'), ('_13', 'cpuModel_45'), ('_12', 'cpuModel_63'), ('_11', 'cpuModel_79'), ('_10', 'zone-Sydney')])], 'edges': [((('arrowsize', '0.5'),), [('_99', '_3'), ('_99', '_253'), ('_98', '_3'), ('_97', '_337'), ('_97', '_275'), ('_97', '_338'), ('_97', '_276'), ('_97', '_274'), ('_97', '_3'), ('_96', '_334'), ('_96', '_336'), ('_96', '_335'), ('_96', '_220'), ('_95', '_224'), ('_95', '_272'), ('_95', '_334'), ('_95', '_335'), ('_95', '_220'), ('_94', '_224'), ('_94', '_272'), ('_94', '_333'), ('_94', '_220'), ('_94', '_319'), ('_93', '_224'), ('_93', '_220'), ('_92', '_330'), ('_92', '_331'), ('_92', '_332'), ('_92', '_3'), ('_91', '_328'), ('_91', '_329'), ('_91', '_300'), ('_91', '_3'), ('_90', '_320'), ('_90', '_294'), ('_90', '_295'), ('_90', '_321'), ('_90', '_322'), ('_90', '_323'), ('_90', '_305'), ('_90', '_324'), ('_90', '_297'), ('_90', '_308'), ('_90', '_325'), ('_90', '_326'), ('_90', '_327'), ('_90', '_3'), ('_62', '_220'), ('_63', '_253'), ('_63', '_3'), ('_60', '_226'), ('_60', '_267'), ('_60', '_268'), ('_60', '_220'), ('_61', '_15'), ('_61', '_269'), ('_61', '_270'), ('_61', '_271'), ('_61', '_272'), ('_61', '_220'), ('_61', '_273'), ('_66', '_275'), ('_66', '_276'), ('_66', '_277'), ('_66', '_3'), ('_66', '_274'), ('_66', '_278'), ('_67', '_279'), ('_67', '_3'), ('_67', '_280'), ('_64', '_274'), ('_64', '_3'), ('_65', '_274'), ('_65', '_3'), ('_68', '_274'), ('_68', '_3'), ('_69', '_3'), ('_69', '_253'), ('_265', '_52'), ('_264', '_45'), ('_267', '_22'), ('_266', '_24'), ('_261', '_51'), ('_260', '_42'), ('_263', '_25'), ('_262', '_23'), ('_346', '_97'), ('_347', '_90'), ('_344', '_21'), ('_345', '_79'), ('_269', '_21'), ('_268', '_59'), ('_340', '_95'), ('_341', '_93'), ('_553', '_178'), ('_552', '_131'), ('_551', '_187'), ('_550', '_197'), ('_557', '_79'), ('_556', '_140'), ('_555', '_92'), ('_554', '_186'), ('_559', '_198'), ('_558', '_91'), ('_418', '_90'), ('_419', '_91'), ('_412', '_127'), ('_413', '_123'), ('_410', '_106'), ('_411', '_22'), ('_416', '_149'), ('_417', '_21'), ('_414', '_51'), ('_415', '_149'), ('_193', '_527'), ('_193', '_528'), ('_193', '_529'), ('_193', '_308'), ('_193', '_328'), ('_193', '_530'), ('_193', '_531'), ('_193', '_507'), ('_193', '_321'), ('_193', '_532'), ('_193', '_3'), ('_192', '_525'), ('_192', '_328'), ('_192', '_419'), ('_192', '_424'), ('_192', '_308'), ('_192', '_526'), ('_192', '_3'), ('_191', '_520'), ('_191', '_521'), ('_191', '_522'), ('_191', '_523'), ('_191', '_524'), ('_191', '_3'), ('_190', '_3'), ('_197', '_512'), ('_197', '_280'), ('_197', '_544'), ('_197', '_345'), ('_197', '_514'), ('_197', '_515'), ('_197', '_309'), ('_197', '_545'), ('_197', '_546'), ('_197', '_547'), ('_197', '_548'), ('_197', '_549'), ('_197', '_220'), ('_197', '_3'), ('_196', '_432'), ('_196', '_536'), ('_196', '_537'), ('_196', '_517'), ('_196', '_538'), ('_196', '_539'), ('_196', '_540'), ('_196', '_541'), ('_196', '_542'), ('_196', '_543'), ('_196', '_3'), ('_195', '_3'), ('_194', '_506'), ('_194', '_432'), ('_194', '_533'), ('_194', '_323'), ('_194', '_534'), ('_194', '_535'), ('_194', '_3'), ('_199', '_552'), ('_199', '_395'), ('_199', '_553'), ('_199', '_554'), ('_199', '_555'), ('_199', '_3'), ('_199', '_1'), ('_198', '_550'), ('_198', '_551'), ('_298', '_48'), ('_299', '_49'), ('_290', '_41'), ('_291', '_76'), ('_292', '_43'), ('_293', '_75'), ('_294', '_72'), ('_295', '_73'), ('_296', '_71'), ('_297', '_74'), ('_489', '_161'), ('_488', '_92'), ('_485', '_162'), ('_484', '_79'), ('_487', '_90'), ('_486', '_176'), ('_481', '_35'), ('_480', '_154'), ('_483', '_126'), ('_482', '_156'), ('_126', '_321'), ('_126', '_379'), ('_126', '_380'), ('_126', '_370'), ('_126', '_381'), ('_126', '_361'), ('_126', '_371'), ('_126', '_378'), ('_126', '_308'), ('_126', '_382'), ('_126', '_383'), ('_126', '_384'), ('_126', '_385'), ('_126', '_386'), ('_126', '_387'), ('_126', '_3'), ('_127', '_321'), ('_127', '_299'), ('_127', '_328'), ('_127', '_388'), ('_127', '_308'), ('_127', '_3'), ('_124', '_3'), ('_124', '_280'), ('_125', '_378'), ('_125', '_371'), ('_125', '_3'), ('_122', '_374'), ('_122', '_220'), ('_123', '_359'), ('_123', '_316'), ('_123', '_224'), ('_123', '_360'), ('_123', '_289'), ('_123', '_361'), ('_123', '_375'), ('_123', '_364'), ('_123', '_362'), ('_123', '_365'), ('_123', '_376'), ('_123', '_377'), ('_123', '_220'), ('_123', '_358'), ('_123', '_363'), ('_120', '_3'), ('_120', '_260'), ('_121', '_370'), ('_121', '_371'), ('_121', '_372'), ('_121', '_373'), ('_121', '_3'), ('_128', '_359'), ('_128', '_224'), ('_128', '_360'), ('_128', '_289'), ('_128', '_361'), ('_128', '_364'), ('_128', '_362'), ('_128', '_365'), ('_128', '_389'), ('_128', '_390'), ('_128', '_220'), ('_128', '_358'), ('_128', '_363'), ('_129', '_391'), ('_129', '_329'), ('_129', '_392'), ('_129', '_393'), ('_129', '_394'), ('_129', '_3'), ('_59', '_226'), ('_59', '_220'), ('_58', '_226'), ('_58', '_220'), ('_53', '_3'), ('_53', '_264'), ('_53', '_265'), ('_52', '_224'), ('_52', '_261'), ('_52', '_262'), ('_52', '_263'), ('_52', '_220'), ('_51', '_226'), ('_50', '_224'), ('_50', '_220'), ('_56', '_226'), ('_56', '_266'), ('_56', '_220'), ('_55', '_226'), ('_55', '_220'), ('_55', '_246'), ('_54', '_3'), ('_570', '_75'), ('_28', '_226'), ('_28', '_220'), ('_29', '_224'), ('_29', '_220'), ('_26', '_224'), ('_26', '_220'), ('_27', '_224'), ('_27', '_230'), ('_27', '_231'), ('_27', '_220'), ('_24', '_226'), ('_25', '_224'), ('_25', '_227'), ('_25', '_228'), ('_25', '_229'), ('_25', '_220'), ('_22', '_224'), ('_22', '_220'), ('_23', '_224'), ('_23', '_225'), ('_23', '_220'), ('_20', '_221'), ('_20', '_222'), ('_20', '_220'), ('_21', '_220'), ('_21', '_221'), ('_21', '_222'), ('_21', '_223'), ('_229', '_24'), ('_228', '_22'), ('_221', '_18'), ('_220', '_16'), ('_223', '_20'), ('_222', '_19'), ('_225', '_22'), ('_224', '_21'), ('_227', '_23'), ('_226', '_21'), ('_458', '_151'), ('_459', '_152'), ('_456', '_114'), ('_457', '_148'), ('_454', '_170'), ('_455', '_145'), ('_452', '_146'), ('_453', '_171'), ('_450', '_24'), ('_451', '_25'), ('_315', '_87'), ('_314', '_84'), ('_317', '_86'), ('_316', '_61'), ('_311', '_140'), ('_313', '_83'), ('_312', '_79'), ('_319', '_88'), ('_318', '_47'), ('_254', '_17'), ('_255', '_43'), ('_256', '_46'), ('_250', '_35'), ('_251', '_22'), ('_252', '_110'), ('_253', '_42'), ('_528', '_91'), ('_529', '_192'), ('_348', '_91'), ('_522', '_91'), ('_523', '_157'), ('_520', '_90'), ('_349', '_92'), ('_526', '_191'), ('_527', '_185'), ('_525', '_160'), ('_342', '_96'), ('_343', '_94'), ('_521', '_189'), ('_179', '_224'), ('_179', '_220'), ('_178', '_379'), ('_178', '_486'), ('_178', '_487'), ('_178', '_488'), ('_178', '_447'), ('_178', '_395'), ('_178', '_489'), ('_178', '_490'), ('_178', '_483'), ('_178', '_491'), ('_178', '_3'), ('_175', '_226'), ('_174', '_226'), ('_177', '_379'), ('_177', '_483'), ('_177', '_484'), ('_177', '_428'), ('_177', '_485'), ('_177', '_3'), ('_176', '_450'), ('_176', '_224'), ('_176', '_451'), ('_176', '_452'), ('_176', '_453'), ('_176', '_415'), ('_176', '_449'), ('_176', '_454'), ('_176', '_455'), ('_176', '_456'), ('_176', '_457'), ('_176', '_458'), ('_176', '_459'), ('_176', '_356'), ('_176', '_460'), ('_176', '_461'), ('_176', '_462'), ('_176', '_463'), ('_176', '_464'), ('_176', '_465'), ('_176', '_466'), ('_176', '_467'), ('_176', '_468'), ('_176', '_469'), ('_176', '_470'), ('_176', '_471'), ('_176', '_472'), ('_176', '_473'), ('_176', '_474'), ('_176', '_475'), ('_176', '_476'), ('_176', '_477'), ('_176', '_478'), ('_176', '_479'), ('_176', '_480'), ('_176', '_220'), ('_176', '_481'), ('_176', '_482'), ('_176', '_242'), ('_176', '_227'), ('_171', '_220'), ('_170', '_226'), ('_170', '_415'), ('_170', '_449'), ('_170', '_227'), ('_173', '_226'), ('_172', '_226'), ('_89', '_226'), ('_89', '_272'), ('_89', '_315'), ('_89', '_242'), ('_89', '_316'), ('_89', '_317'), ('_89', '_268'), ('_89', '_220'), ('_89', '_273'), ('_89', '_3'), ('_89', '_318'), ('_89', '_319'), ('_84', '_313'), ('_84', '_280'), ('_84', '_3'), ('_85', '_280'), ('_85', '_314'), ('_85', '_3'), ('_87', '_226'), ('_87', '_220'), ('_80', '_3'), ('_81', '_308'), ('_81', '_309'), ('_81', '_310'), ('_81', '_311'), ('_81', '_3'), ('_82', '_280'), ('_82', '_312'), ('_82', '_3'), ('_83', '_226'), ('_83', '_242'), ('_83', '_220'), ('_6', '_16'), ('_5', '_210'), ('_4', '_201'), ('_3', '_17'), ('_2', '_200'), ('_1', '_38'), ('_17', '_215'), ('_17', '_216'), ('_17', '_217'), ('_17', '_218'), ('_17', '_219'), ('_15', '_40'), ('_14', '_214'), ('_13', '_213'), ('_12', '_212'), ('_11', '_211'), ('_10', '_39'), ('_19', '_220'), ('_19', '_221'), ('_18', '_220'), ('_210', '_577'), ('_210', '_578'), ('_210', '_579'), ('_210', '_580'), ('_210', '_581'), ('_215', '_22'), ('_216', '_169'), ('_218', '_59'), ('_219', '_16'), ('_353', '_100'), ('_352', '_102'), ('_355', '_103'), ('_354', '_101'), ('_357', '_108'), ('_356', '_105'), ('_405', '_137'), ('_404', '_138'), ('_407', '_38'), ('_406', '_136'), ('_401', '_136'), ('_400', '_58'), ('_403', '_96'), ('_402', '_93'), ('_566', '_203'), ('_567', '_79'), ('_564', '_186'), ('_565', '_43'), ('_409', '_141'), ('_408', '_139'), ('_560', '_193'), ('_561', '_110'), ('_328', '_90'), ('_329', '_79'), ('_324', '_80'), ('_325', '_81'), ('_326', '_82'), ('_327', '_78'), ('_320', '_86'), ('_321', '_48'), ('_322', '_89'), ('_323', '_85'), ('_289', '_42'), ('_288', '_55'), ('_283', '_43'), ('_282', '_69'), ('_281', '_67'), ('_280', '_42'), ('_287', '_50'), ('_286', '_62'), ('_285', '_39'), ('_284', '_68'), ('_358', '_36'), ('_131', '_395'), ('_131', '_398'), ('_130', '_391'), ('_130', '_395'), ('_130', '_393'), ('_130', '_394'), ('_130', '_396'), ('_130', '_397'), ('_130', '_3'), ('_133', '_224'), ('_133', '_220'), ('_132', '_226'), ('_135', '_269'), ('_135', '_220'), ('_134', '_226'), ('_137', '_285'), ('_137', '_224'), ('_137', '_316'), ('_137', '_399'), ('_137', '_400'), ('_137', '_401'), ('_137', '_242'), ('_137', '_402'), ('_137', '_403'), ('_137', '_220'), ('_137', '_273'), ('_136', '_226'), ('_136', '_316'), ('_136', '_399'), ('_136', '_220'), ('_136', '_273'), ('_139', '_404'), ('_580', '_77'), ('_581', '_202'), ('_48', '_3'), ('_49', '_260'), ('_49', '_3'), ('_41', '_3'), ('_42', '_3'), ('_43', '_3'), ('_43', '_253'), ('_44', '_254'), ('_44', '_255'), ('_45', '_3'), ('_46', '_226'), ('_46', '_220'), ('_47', '_226'), ('_47', '_256'), ('_47', '_220'), ('_47', '_3'), ('_47', '_257'), ('_47', '_258'), ('_47', '_259'), ('_144', '_226'), ('_145', '_226'), ('_145', '_243'), ('_146', '_226'), ('_146', '_414'), ('_147', '_226'), ('_147', '_220'), ('_140', '_224'), ('_140', '_316'), ('_140', '_405'), ('_140', '_406'), ('_140', '_220'), ('_140', '_407'), ('_140', '_359'), ('_140', '_404'), ('_140', '_408'), ('_141', '_226'), ('_142', '_226'), ('_142', '_409'), ('_142', '_410'), ('_142', '_411'), ('_143', '_328'), ('_143', '_412'), ('_143', '_388'), ('_143', '_321'), ('_143', '_413'), ('_143', '_3'), ('_148', '_226'), ('_149', '_226'), ('_449', '_150'), ('_448', '_59'), ('_441', '_159'), ('_440', '_129'), ('_443', '_160'), ('_442', '_143'), ('_445', '_163'), ('_444', '_161'), ('_447', '_131'), ('_446', '_126'), ('_360', '_17'), ('_361', '_108'), ('_362', '_107'), ('_363', '_110'), ('_364', '_112'), ('_365', '_111'), ('_366', '_90'), ('_367', '_118'), ('_368', '_91'), ('_369', '_79'), ('_535', '_185'), ('_534', '_79'), ('_537', '_195'), ('_536', '_85'), ('_531', '_85'), ('_530', '_190'), ('_249', '_37'), ('_248', '_36'), ('_247', '_147'), ('_246', '_35'), ('_245', '_34'), ('_244', '_27'), ('_243', '_25'), ('_242', '_22'), ('_241', '_33'), ('_562', '_162'), ('_438', '_157'), ('_439', '_131'), ('_434', '_90'), ('_435', '_74'), ('_436', '_162'), ('_437', '_119'), ('_430', '_91'), ('_431', '_48'), ('_432', '_89'), ('_433', '_79'), ('_563', '_199'), ('_108', '_224'), ('_108', '_220'), ('_108', '_3'), ('_109', '_226'), ('_109', '_266'), ('_109', '_220'), ('_100', '_278'), ('_100', '_339'), ('_100', '_3'), ('_101', '_3'), ('_102', '_340'), ('_102', '_341'), ('_102', '_342'), ('_102', '_343'), ('_102', '_3'), ('_102', '_289'), ('_102', '_344'), ('_103', '_345'), ('_103', '_280'), ('_103', '_346'), ('_103', '_347'), ('_103', '_348'), ('_103', '_349'), ('_103', '_350'), ('_103', '_351'), ('_103', '_352'), ('_103', '_353'), ('_103', '_354'), ('_103', '_220'), ('_103', '_3'), ('_104', '_345'), ('_104', '_280'), ('_104', '_346'), ('_104', '_347'), ('_104', '_348'), ('_104', '_355'), ('_104', '_220'), ('_104', '_3'), ('_105', '_226'), ('_106', '_226'), ('_106', '_356'), ('_107', '_224'), ('_107', '_253'), ('_543', '_197'), ('_549', '_194'), ('_203', '_253'), ('_203', '_220'), ('_203', '_3'), ('_202', '_3'), ('_201', '_224'), ('_201', '_220'), ('_200', '_517'), ('_200', '_556'), ('_200', '_557'), ('_200', '_1'), ('_200', '_558'), ('_200', '_559'), ('_200', '_393'), ('_200', '_560'), ('_200', '_395'), ('_200', '_398'), ('_200', '_561'), ('_200', '_562'), ('_200', '_563'), ('_200', '_564'), ('_200', '_3'), ('_207', '_570'), ('_207', '_571'), ('_207', '_572'), ('_207', '_3'), ('_206', '_570'), ('_206', '_571'), ('_206', '_3'), ('_205', '_570'), ('_205', '_3'), ('_204', '_253'), ('_204', '_565'), ('_204', '_566'), ('_204', '_567'), ('_204', '_568'), ('_204', '_569'), ('_204', '_3'), ('_209', '_404'), ('_209', '_274'), ('_209', '_573'), ('_209', '_574'), ('_209', '_575'), ('_209', '_576'), ('_208', '_3'), ('_208', '_283'), ('_208', '_274'), ('_208', '_278'), ('_470', '_134'), ('_471', '_165'), ('_472', '_155'), ('_473', '_174'), ('_474', '_132'), ('_475', '_133'), ('_476', '_144'), ('_477', '_166'), ('_478', '_169'), ('_479', '_30'), ('_573', '_207'), ('_572', '_206'), ('_575', '_202'), ('_574', '_77'), ('_577', '_209'), ('_576', '_208'), ('_579', '_207'), ('_578', '_204'), ('_571', '_205'), ('_339', '_99'), ('_338', '_63'), ('_337', '_66'), ('_336', '_95'), ('_335', '_94'), ('_334', '_93'), ('_333', '_93'), ('_332', '_70'), ('_331', '_91'), ('_330', '_90'), ('_508', '_91'), ('_509', '_184'), ('_504', '_147'), ('_506', '_86'), ('_507', '_98'), ('_500', '_33'), ('_501', '_182'), ('_502', '_183'), ('_503', '_108'), ('_382', '_125'), ('_383', '_123'), ('_380', '_116'), ('_381', '_111'), ('_386', '_101'), ('_387', '_124'), ('_384', '_117'), ('_385', '_121'), ('_388', '_126'), ('_389', '_113'), ('_79', '_294'), ('_79', '_295'), ('_79', '_296'), ('_79', '_297'), ('_79', '_298'), ('_79', '_299'), ('_79', '_300'), ('_79', '_301'), ('_79', '_302'), ('_79', '_303'), ('_79', '_304'), ('_79', '_305'), ('_79', '_306'), ('_79', '_307'), ('_79', '_3'), ('_78', '_3'), ('_75', '_289'), ('_75', '_3'), ('_74', '_288'), ('_74', '_226'), ('_74', '_220'), ('_74', '_3'), ('_74', '_246'), ('_77', '_290'), ('_77', '_253'), ('_77', '_291'), ('_77', '_292'), ('_77', '_293'), ('_77', '_3'), ('_76', '_224'), ('_76', '_280'), ('_76', '_220'), ('_76', '_3'), ('_71', '_224'), ('_71', '_260'), ('_71', '_220'), ('_71', '_3'), ('_70', '_281'), ('_70', '_282'), ('_70', '_283'), ('_70', '_284'), ('_70', '_285'), ('_70', '_286'), ('_70', '_3'), ('_73', '_287'), ('_73', '_3'), ('_72', '_226'), ('_72', '_280'), ('_72', '_220'), ('_72', '_3'), ('_157', '_418'), ('_157', '_419'), ('_157', '_420'), ('_157', '_3'), ('_156', '_417'), ('_155', '_226'), ('_155', '_416'), ('_154', '_226'), ('_154', '_220'), ('_153', '_224'), ('_153', '_220'), ('_152', '_226'), ('_151', '_226'), ('_150', '_226'), ('_150', '_415'), ('_159', '_3'), ('_158', '_3'), ('_532', '_102'), ('_373', '_119'), ('_372', '_117'), ('_371', '_120'), ('_370', '_110'), ('_377', '_52'), ('_375', '_122'), ('_374', '_115'), ('_379', '_69'), ('_378', '_90'), ('_278', '_41'), ('_279', '_66'), ('_544', '_85'), ('_545', '_196'), ('_272', '_60'), ('_273', '_56'), ('_270', '_58'), ('_271', '_57'), ('_276', '_65'), ('_277', '_63'), ('_274', '_42'), ('_275', '_64'), ('_429', '_45'), ('_428', '_160'), ('_427', '_158'), ('_426', '_79'), ('_425', '_44'), ('_424', '_72'), ('_423', '_91'), ('_422', '_90'), ('_421', '_90'), ('_420', '_79'), ('_180', '_224'), ('_180', '_220'), ('_181', '_224'), ('_181', '_492'), ('_181', '_228'), ('_181', '_220'), ('_182', '_269'), ('_182', '_220'), ('_182', '_359'), ('_183', '_493'), ('_183', '_494'), ('_183', '_495'), ('_183', '_225'), ('_183', '_496'), ('_183', '_497'), ('_183', '_268'), ('_183', '_498'), ('_183', '_499'), ('_183', '_273'), ('_183', '_235'), ('_183', '_500'), ('_184', '_501'), ('_184', '_502'), ('_184', '_503'), ('_184', '_269'), ('_184', '_504'), ('_184', '_505'), ('_184', '_499'), ('_184', '_3'), ('_185', '_506'), ('_185', '_253'), ('_185', '_507'), ('_185', '_508'), ('_185', '_346'), ('_185', '_509'), ('_185', '_3'), ('_186', '_510'), ('_186', '_511'), ('_186', '_395'), ('_186', '_3'), ('_186', '_1'), ('_187', '_512'), ('_187', '_280'), ('_187', '_513'), ('_187', '_345'), ('_187', '_514'), ('_187', '_515'), ('_187', '_309'), ('_187', '_220'), ('_187', '_3'), ('_188', '_516'), ('_188', '_517'), ('_188', '_329'), ('_188', '_3'), ('_189', '_328'), ('_189', '_518'), ('_189', '_519'), ('_189', '_3'), ('_492', '_180'), ('_493', '_23'), ('_490', '_177'), ('_491', '_164'), ('_496', '_25'), ('_497', '_179'), ('_494', '_181'), ('_495', '_180'), ('_498', '_20'), ('_499', '_16'), ('_119', '_366'), ('_119', '_367'), ('_119', '_368'), ('_119', '_369'), ('_119', '_3'), ('_118', '_366'), ('_118', '_3'), ('_113', '_359'), ('_113', '_224'), ('_113', '_360'), ('_113', '_289'), ('_113', '_361'), ('_113', '_364'), ('_113', '_362'), ('_113', '_365'), ('_113', '_220'), ('_113', '_358'), ('_113', '_363'), ('_112', '_359'), ('_112', '_224'), ('_112', '_360'), ('_112', '_361'), ('_112', '_289'), ('_112', '_220'), ('_112', '_358'), ('_112', '_363'), ('_111', '_359'), ('_111', '_224'), ('_111', '_360'), ('_111', '_289'), ('_111', '_361'), ('_111', '_362'), ('_111', '_220'), ('_111', '_358'), ('_111', '_363'), ('_110', '_224'), ('_110', '_357'), ('_110', '_220'), ('_110', '_3'), ('_110', '_358'), ('_117', '_3'), ('_116', '_3'), ('_116', '_253'), ('_115', '_224'), ('_115', '_220'), ('_114', '_226'), ('_38', '_224'), ('_38', '_3'), ('_38', '_248'), ('_38', '_249'), ('_38', '_250'), ('_38', '_251'), ('_38', '_252'), ('_38', '_220'), ('_31', '_224'), ('_31', '_233'), ('_31', '_220'), ('_30', '_224'), ('_30', '_232'), ('_30', '_228'), ('_30', '_220'), ('_33', '_226'), ('_33', '_235'), ('_33', '_236'), ('_33', '_220'), ('_32', '_224'), ('_32', '_234'), ('_32', '_220'), ('_35', '_226'), ('_35', '_238'), ('_35', '_220'), ('_34', '_224'), ('_34', '_234'), ('_34', '_237'), ('_34', '_220'), ('_37', '_3'), ('_37', '_247'), ('_37', '_220'), ('_36', '_239'), ('_36', '_240'), ('_36', '_224'), ('_36', '_235'), ('_36', '_227'), ('_36', '_241'), ('_36', '_242'), ('_36', '_243'), ('_36', '_244'), ('_36', '_233'), ('_36', '_234'), ('_36', '_237'), ('_36', '_245'), ('_36', '_246'), ('_36', '_220'), ('_359', '_109'), ('_533', '_90'), ('_238', '_22'), ('_236', '_22'), ('_237', '_32'), ('_234', '_31'), ('_235', '_28'), ('_232', '_29'), ('_233', '_30'), ('_230', '_26'), ('_231', '_25'), ('_463', '_173'), ('_462', '_153'), ('_461', '_168'), ('_460', '_106'), ('_467', '_167'), ('_466', '_142'), ('_465', '_59'), ('_464', '_172'), ('_469', '_141'), ('_468', '_175'), ('_538', '_91'), ('_351', '_53'), ('_350', '_98'), ('_308', '_79'), ('_309', '_126'), ('_302', '_85'), ('_303', '_70'), ('_300', '_44'), ('_301', '_89'), ('_306', '_54'), ('_307', '_78'), ('_305', '_77'), ('_518', '_188'), ('_517', '_90'), ('_516', '_160'), ('_515', '_104'), ('_514', '_103'), ('_513', '_185'), ('_512', '_90'), ('_511', '_92'), ('_510', '_178'), ('_568', '_97'), ('_569', '_74'), ('_399', '_135'), ('_398', '_130'), ('_395', '_129'), ('_394', '_126'), ('_397', '_127'), ('_396', '_128'), ('_391', '_124'), ('_390', '_123'), ('_393', '_92'), ('_392', '_82'), ('_162', '_426'), ('_162', '_427'), ('_162', '_428'), ('_162', '_429'), ('_162', '_430'), ('_162', '_3'), ('_163', '_431'), ('_163', '_432'), ('_163', '_346'), ('_163', '_433'), ('_163', '_434'), ('_163', '_435'), ('_163', '_436'), ('_163', '_437'), ('_163', '_438'), ('_163', '_439'), ('_163', '_440'), ('_163', '_388'), ('_163', '_441'), ('_163', '_442'), ('_163', '_443'), ('_163', '_444'), ('_163', '_367'), ('_163', '_3'), ('_160', '_421'), ('_160', '_329'), ('_160', '_3'), ('_161', '_422'), ('_161', '_423'), ('_161', '_329'), ('_161', '_424'), ('_161', '_425'), ('_161', '_3'), ('_166', '_226'), ('_167', '_226'), ('_164', '_321'), ('_164', '_379'), ('_164', '_328'), ('_164', '_308'), ('_164', '_412'), ('_164', '_445'), ('_164', '_446'), ('_164', '_437'), ('_164', '_447'), ('_164', '_440'), ('_164', '_393'), ('_164', '_3'), ('_165', '_226'), ('_165', '_448'), ('_165', '_242'), ('_169', '_220')])]}",
+    "failure_description": null,
+    "package_orderers": null,
+    "package_paths": [
+        "/film/tools/packages"
+    ],
+    "platform": "linux",
+    "rez_path": "/film/tools/packages/rez/2.8.0.16/CentOS-6.2_thru_7/python-2.7/lib/python2.7/site-packages/rez-2.8.0.16-py2.7.egg/rez",
+    "status": "solved",
+    "from_cache": false,
+    "timestamp": 1524713680,
+    "caching": true,
+    "load_time": 0.0,
+    "os": "CentOS-6.6",
+    "patch_locks": {}
+}
